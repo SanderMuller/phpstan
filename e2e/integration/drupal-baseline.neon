@@ -43,28 +43,10 @@ parameters:
 			path: repo/core/modules/block/src/BlockListBuilder.php
 
 		-
-			message: '#^Variable \$parts in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
+			message: '#^Class Drupal\\Core\\Url referenced with incorrect case\: Drupal\\Core\\URL\.$#'
+			identifier: class.nameCase
 			count: 1
-			path: repo/core/modules/block_content/tests/src/Functional/BlockContentTypeTest.php
-
-		-
-			message: '#^Variable \$trail in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/block_content/tests/src/Functional/BlockContentTypeTest.php
-
-		-
-			message: '#^Variable \$parts in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/block_content/tests/src/Functional/PageEditTest.php
-
-		-
-			message: '#^Variable \$trail in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/block_content/tests/src/Functional/PageEditTest.php
+			path: repo/core/modules/ckeditor5/src/SmartDefaultSettings.php
 
 		-
 			message: '#^Method Drupal\\contact\\MessageForm\:\:validateForm\(\) has no return type specified\.$#'
@@ -73,16 +55,10 @@ parameters:
 			path: repo/core/modules/contact/src/MessageForm.php
 
 		-
-			message: '#^Variable \$parts in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
+			message: '#^Class Drupal\\Component\\Utility\\Html referenced with incorrect case\: Drupal\\Component\\Utility\\HTML\.$#'
+			identifier: class.nameCase
 			count: 1
-			path: repo/core/modules/dblog/tests/src/Functional/DbLogTest.php
-
-		-
-			message: '#^Variable \$trail in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/dblog/tests/src/Functional/DbLogTest.php
+			path: repo/core/modules/contact/tests/src/Functional/ContactPersonalTest.php
 
 		-
 			message: '#^Variable \$height in empty\(\) always exists and is always falsy\.$#'
@@ -97,76 +73,10 @@ parameters:
 			path: repo/core/modules/filter/src/FilterProcessResult.php
 
 		-
-			message: '#^Variable \$parts in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
+			message: '#^Class Drupal\\Core\\Url referenced with incorrect case\: Drupal\\Core\\URL\.$#'
+			identifier: class.nameCase
 			count: 1
-			path: repo/core/modules/help/tests/src/Functional/HelpTopicTest.php
-
-		-
-			message: '#^Variable \$trail in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/help/tests/src/Functional/HelpTopicTest.php
-
-		-
-			message: '#^Variable \$parts in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/language/tests/src/Functional/LanguageBreadcrumbTest.php
-
-		-
-			message: '#^Variable \$trail in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/language/tests/src/Functional/LanguageBreadcrumbTest.php
-
-		-
-			message: '#^Variable \$parts in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/node/tests/src/Functional/NodeTitleTest.php
-
-		-
-			message: '#^Variable \$trail in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/node/tests/src/Functional/NodeTitleTest.php
-
-		-
-			message: '#^Variable \$parts in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/node/tests/src/Functional/NodeTypeTest.php
-
-		-
-			message: '#^Variable \$trail in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/node/tests/src/Functional/NodeTypeTest.php
-
-		-
-			message: '#^Variable \$parts in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/system/tests/src/Functional/Menu/BreadcrumbFrontCacheContextsTest.php
-
-		-
-			message: '#^Variable \$trail in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/system/tests/src/Functional/Menu/BreadcrumbFrontCacheContextsTest.php
-
-		-
-			message: '#^Variable \$parts in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/system/tests/src/Functional/Menu/BreadcrumbTest.php
-
-		-
-			message: '#^Variable \$trail in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/system/tests/src/Functional/Menu/BreadcrumbTest.php
+			path: repo/core/modules/system/tests/src/Kernel/Common/FormElementsRenderTest.php
 
 		-
 			message: '#^Method Drupal\\taxonomy\\Plugin\\views\\argument_default\\Tid\:\:getCacheTags\(\) has no return type specified\.$#'
@@ -181,28 +91,10 @@ parameters:
 			path: repo/core/modules/taxonomy/src/TermForm.php
 
 		-
-			message: '#^Variable \$parts in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/taxonomy/tests/src/Functional/TermTest.php
-
-		-
-			message: '#^Variable \$trail in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/taxonomy/tests/src/Functional/TermTest.php
-
-		-
-			message: '#^Variable \$parts in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/taxonomy/tests/src/Functional/TermTranslationTest.php
-
-		-
-			message: '#^Variable \$trail in empty\(\) always exists and is always falsy\.$#'
-			identifier: empty.variable
-			count: 1
-			path: repo/core/modules/taxonomy/tests/src/Functional/TermTranslationTest.php
+			message: '#^Class Drupal\\Component\\Serialization\\Json referenced with incorrect case\: Drupal\\Component\\Serialization\\JSON\.$#'
+			identifier: class.nameCase
+			count: 4
+			path: repo/core/modules/toolbar/tests/src/FunctionalJavascript/ToolbarStoredStateTest.php
 
 		-
 			message: '#^Variable \$untranslatable_configs in empty\(\) always exists and is not falsy\.$#'
@@ -211,7 +103,31 @@ parameters:
 			path: repo/core/modules/views/src/FieldViewsDataProvider.php
 
 		-
+			message: '#^Class Drupal\\views\\Views referenced with incorrect case\: Drupal\\views\\views\.$#'
+			identifier: class.nameCase
+			count: 1
+			path: repo/core/modules/views/tests/src/Functional/Handler/HandlerTest.php
+
+		-
 			message: '#^Cannot unset offset ''\#title'' on array\{''\#theme_wrappers''\: array\{''container''\}, ''\#attributes''\: array\{class\: array\{''scroll''\}, data\-drupal\-views\-scroll\: true\}\}\.$#'
 			identifier: unset.offset
 			count: 1
 			path: repo/core/modules/views_ui/src/Form/Ajax/Display.php
+
+		-
+			message: '#^Class Drupal\\Core\\Datetime\\DrupalDateTime referenced with incorrect case\: Drupal\\Core\\Datetime\\DrupalDatetime\.$#'
+			identifier: class.nameCase
+			count: 1
+			path: repo/core/tests/Drupal/KernelTests/Core/Datetime/Element/TimezoneTest.php
+
+		-
+			message: '#^Class Drupal\\Tests\\Core\\Database\\Stub\\StubPDO referenced with incorrect case\: Drupal\\Tests\\Core\\Database\\Stub\\StubPdo\.$#'
+			identifier: class.nameCase
+			count: 1
+			path: repo/core/tests/Drupal/Tests/Core/Database/ConnectionTest.php
+
+		-
+			message: '#^Interface Drupal\\Core\\PreWarm\\PreWarmableInterface referenced with incorrect case\: Drupal\\Core\\PreWarm\\PrewarmableInterface\.$#'
+			identifier: interface.nameCase
+			count: 1
+			path: repo/core/tests/Drupal/Tests/Core/PreWarm/CachePreWarmerTest.php

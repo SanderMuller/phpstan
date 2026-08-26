@@ -67,6 +67,18 @@ parameters:
 			path: flow-dist/Packages/Framework/Neos.Flow/Classes/Persistence/Doctrine/Repository.php
 
 		-
+			message: '#^Class Doctrine\\DBAL\\Platforms\\MySQLPlatform referenced with incorrect case\: Doctrine\\DBAL\\Platforms\\MySqlPlatform\.$#'
+			identifier: class.nameCase
+			count: 1
+			path: flow-dist/Packages/Framework/Neos.Flow/Classes/Persistence/Doctrine/Service.php
+
+		-
+			message: '#^Class Doctrine\\DBAL\\Platforms\\PostgreSQLPlatform referenced with incorrect case\: Doctrine\\DBAL\\Platforms\\PostgreSqlPlatform\.$#'
+			identifier: class.nameCase
+			count: 1
+			path: flow-dist/Packages/Framework/Neos.Flow/Classes/Persistence/Doctrine/Service.php
+
+		-
 			message: '#^Non\-standard \(boolean\) cast is deprecated in PHP 8\.5\. Use \(bool\) instead\.$#'
 			identifier: cast.deprecated
 			count: 2
